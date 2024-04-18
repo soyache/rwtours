@@ -6,4 +6,6 @@ import { defineConfig } from "astro/config";
 export default defineConfig({
   site: "https://astro-moon-landing.netlify.app/",
   integrations: [tailwind(), icon()],
+  site: "https://soyache.github.io",
+  base: "rwtours",
 });
